@@ -1,0 +1,1 @@
+Manage applications and apply effortlessly. Simplify the internship hunt for students and recruiters alike. Powered by cutting-edge technology for seamless communication and organization. Join us in shaping tomorrow's talent landscape!
