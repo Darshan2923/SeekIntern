@@ -5,7 +5,7 @@ import userModel from '../db/User.js';
 import recruiterModel from '../db/Recruiter.js';
 import applicantModel from '../db/JobApplicant.js';
 
-export const signup = (req, res) => {
+export const signup = async (req, res) => {
     try {
         const data = req.body;
         let user = new userModel({
@@ -14,49 +14,35 @@ export const signup = (req, res) => {
             type: data.type,
         });
 
-        user
-            .save()
-            .then(() => {
-                const userdetails =
-                    user.type == "recruiter"
-                        ? new recruiterModel({
-                            userId: user._id,
-                            name: data.name,
-                            contactNumber: data.contactNumber,
-                            bio: data.bio,
-                        })
-                        : new applicantModel({
-                            userId: user._id,
-                            name: data.name,
-                            education: data.education,
-                            skills: data.skills,
-                            rating: data.rating,
-                            resume: data.resume,
-                            profile: data.profile,
-                        });
+        await user.save(); // Wait for user to be saved
 
-                userdetails
-                    .save()
-                    .then(() => {
-                        // Token
-                        const token = jwt.sign({ _id: user._id }, "jwt_secret");
-                        res.json({
-                            token: token,
-                            type: user.type,
-                        });
-                    })
-                    .catch((err) => {
-                        user.delete().then(() => {
-                            res.status(400).json(err);
-                        })
-                            .catch((err) => {
-                                res.json({ error: err });
-                            });
-                        err;
-                    });
-            })
+        const userdetails = user.type === "recruiter" ?
+            new recruiterModel({
+                userId: user._id,
+                name: data.name,
+                contactNumber: data.contactNumber,
+                bio: data.bio,
+            }) :
+            new applicantModel({
+                userId: user._id,
+                name: data.name,
+                education: data.education,
+                skills: data.skills,
+                rating: data.rating,
+                resume: data.resume,
+                profile: data.profile,
+            });
+
+        await userdetails.save(); // Wait for userdetails to be saved
+
+        // Token
+        const token = jwt.sign({ _id: user._id }, "jwt_secret");
+        res.json({
+            token: token,
+            type: user.type,
+        });
     } catch (error) {
-        res.status(401).json({ message: error.message })
+        res.status(400).json({ error: error.message });
     }
 }
 

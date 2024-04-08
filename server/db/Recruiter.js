@@ -11,12 +11,14 @@ const RecruiterSchema = new mongoose.Schema({
     },
     contactNumber: {
         type: String,
-        validate: {
-            validator: function (v) {
-                return v !== "" ? /\+\d{1,3}\d{10}/.test(v) : true;
-            },
-            msg: "Phone number is invalid!",
-        },
+        required: true,
+        // validate: {
+        //     validator: function (v) {
+        //         // You can use a regular expression or any other method to validate phone numbers
+        //         return /\d{3}-\d{3}-\d{4}/.test(v);
+        //     },
+        //     message: props => `${props.value} is not a valid phone number!`
+        // }
     },
     bio: {
         type: String,
