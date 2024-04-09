@@ -44,7 +44,7 @@
 import { FiMapPin, FiSearch } from 'react-icons/fi';
 import DebounceInput from './DebounceInput'; // Assuming you have this component in a file
 
-const MainBar = ({ handleInputChange }) => {
+const MainBar = ({ handleInputChange, handleLocChange }) => {
 
     return (
         <div className='max-w-screen-2xl container  md:py-20 py-14'>
@@ -59,7 +59,7 @@ const MainBar = ({ handleInputChange }) => {
                     </div>
                     <div className="flex rounded-[10px] shadow ring-inset ring-gray-300 focus-within:ring-inset md:w-1/3 w-full ">
                         <FiMapPin className="absolute  mt-2.5 ml-[10px] text-gray-400" />
-                        <DebounceInput onChange={handleInputChange} placeholder='Location' />
+                        <DebounceInput onChange={handleLocChange} placeholder='Location' />
                     </div>
                     <button type='submit' className='bg-primarygreen py-2 px-8 text-white md:rounded rounded'>Search</button>
                 </div>

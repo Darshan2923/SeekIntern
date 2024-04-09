@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        "primary": "#141414",
         'custpurple': '#7C0397',
         'cust2purple': '#BE1ADB',
         'mainbg': '#EFEFEF',

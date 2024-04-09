@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const Jobs = ({ results }) => {
+const Jobs = ({ result }) => {
     return (
-        <div>
-            <h1>{results}</h1>
-        </div>
-    )
-}
+        <>
+            <h3 className='text-lg font-bold mb-2'>{result.length} Jobs</h3>
+            <section className='card-container'>{result}</section>
+        </>
+    );
+};
 
-export default Jobs
+export default Jobs;
