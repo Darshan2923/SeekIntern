@@ -114,6 +114,9 @@ const Home = () => {
             );
         }
 
+        // slice based on currentPage index
+        const { startIndex, endIndex } = calculatePageRange();
+        finalJobs = finalJobs.slice(startIndex, endIndex)
         return finalJobs.map((data, i) => <Card key={i} data={data} />);
     };
 
@@ -132,7 +135,23 @@ const Home = () => {
             {/* // main content */}
             <div className='bg-[#FAFAFA] md:grid grid-cols-4 gap-8 lg:px-24 px-4 py-12'>
                 <div className='bg-white p-4 rounded'><Sidebar handleRadio={handleRadio} handleButton={handleButton} /></div>
-                <div className='col-span-2 bg-white p-4 rounded'>{isLoading ? (<p className='font-semibold'>Loading...</p>) : results.length > 0 ? (<Jobs result={results} />) : <><h3 className='text-lg font-bold mb-2'>{results.length} Jobs</h3><p>No data found</p></>}</div>
+                <div className='col-span-2 bg-white p-4 rounded'>
+                    {isLoading ? (
+                        <p className='font-semibold'>Loading...</p>) : results.length > 0 ? (<Jobs result={results} />)
+                        : <><h3 className='text-lg font-bold mb-2'>{results.length} Jobs</h3><p>No data found</p></>
+                    }
+
+                    {/* pagination here */}
+                    {
+                        results.length > 0 ? (
+                            <div className="flex justify-center mt-4 space-x-8">
+                                <button onClick={prevPage}>Previous</button>
+                                <span>Page {currentPage} of {Math.ceil(jobs.length / itemsPerPage)}</span>
+                                <button onClick={nextPage} disabled={currentPage === Math.ceil(jobs.length > itemsPerPage)}>Next</button>
+                            </div>
+                        ) : ""
+                    }
+                </div>
                 <div className='bg-white p-4 rounded'>Right</div>
             </div>
         </>
