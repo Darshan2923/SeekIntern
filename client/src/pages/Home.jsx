@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Jobs from '../components/Jobs';
 import Card from '../components/Card'
 import Sidebar from '../components/Sidebar';
+import Queries_News from '../components/Queries_News';
 
 const Home = () => {
     const [query, setQuery] = useState("");
@@ -45,26 +46,26 @@ const Home = () => {
         setCategory(e.target.value);
     };
 
-    // calculate index range
-    const calculatePageRange = () => {
-        const startIndex = (currentPage - 1) * itemsPerPage;
-        const endIndex = startIndex + itemsPerPage;
-        return { startIndex, endIndex };
-    }
+    // // calculate index range
+    // const calculatePageRange = () => {
+    //     const startIndex = (currentPage - 1) * itemsPerPage;
+    //     const endIndex = startIndex + itemsPerPage;
+    //     return { startIndex, endIndex };
+    // }
 
-    // func for next page
-    const nextPage = () => {
-        if (currentPage < Math.ceil(filteredData.length / itemsPerPage)) {
-            setcurrentPage(currentPage + 1);
-        }
-    }
+    // // func for next page
+    // const nextPage = () => {
+    //     if (currentPage < Math.ceil(filteredData.length / itemsPerPage)) {
+    //         setcurrentPage(currentPage + 1);
+    //     }
+    // }
 
-    // func for prev page
-    const prevPage = () => {
-        if (currentPage > 1) {
-            setcurrentPage(currentPage - 1);
-        }
-    }
+    // // func for prev page
+    // const prevPage = () => {
+    //     if (currentPage > 1) {
+    //         setcurrentPage(currentPage - 1);
+    //     }
+    // }
 
     const filteredData = (jobs, selected, query, location) => {
         let finalJobs = jobs;
@@ -110,13 +111,15 @@ const Home = () => {
                     jobLocation.toLowerCase() === selected.toLowerCase() ||
                     salaryType.toLowerCase() === selected.toLowerCase() ||
                     employmentType.toLowerCase() === selected.toLowerCase() ||
-                    parseInt(maxPrice) <= parseInt(selected)
+                    parseInt(maxPrice) <= parseInt(selected) ||
+                    postingDate >= selected ||
+                    experienceLevel.toLowerCase() === selected.toLowerCase()
             );
         }
 
         // slice based on currentPage index
-        const { startIndex, endIndex } = calculatePageRange();
-        finalJobs = finalJobs.slice(startIndex, endIndex)
+        // const { startIndex, endIndex } = calculatePageRange();
+        // finalJobs = finalJobs.slice(startIndex, endIndex)
         return finalJobs.map((data, i) => <Card key={i} data={data} />);
     };
 
@@ -142,7 +145,7 @@ const Home = () => {
                     }
 
                     {/* pagination here */}
-                    {
+                    {/* {
                         results.length > 0 ? (
                             <div className="flex justify-center mt-4 space-x-8">
                                 <button onClick={prevPage}>Previous</button>
@@ -150,9 +153,9 @@ const Home = () => {
                                 <button onClick={nextPage} disabled={currentPage === Math.ceil(jobs.length > itemsPerPage)}>Next</button>
                             </div>
                         ) : ""
-                    }
+                    } */}
                 </div>
-                <div className='bg-white p-4 rounded'>Right</div>
+                <div className='bg-white p-4 rounded'><Queries_News /></div>
             </div>
         </>
     )

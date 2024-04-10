@@ -48,7 +48,7 @@ const MainBar = ({ handleInputChange, handleLocChange }) => {
 
     return (
         <div className='max-w-screen-2xl container  md:py-20 py-14'>
-            <h1 className='text-5xl font-bold mb-4'>Let’s help you land your <span className='text-primarygreen'>dream career</span></h1>
+            <h1 className='md:text-5xl text-4xl font-bold mb-4 mt-8 md:mt-0'>Let’s help you land your <span className='text-primarygreen'>dream career</span></h1>
             <p className='text-lg text-black/70 mb-8'>Know the companies visiting your campus for grabbing opportunities on time.</p>
 
             <form action="">
