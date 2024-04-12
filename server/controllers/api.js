@@ -9,16 +9,16 @@ import jobs from '../db/Jobs.js';
 export const postJobs = async (req, res) => {
     try {
         const user = req.user;
-        if (user.type != "recruiter") {
-            res.status(401).json({
-                message: "You dont have permission to add jobs"
-            });
-            return;
-        }
+        // if (user.type != "recruiter") {
+        //     res.status(401).json({
+        //         message: "You dont have permission to add jobs"
+        //     });
+        //     return;
+        // }
         const data = req.body;
 
         const job = new jobs({
-            userId: user._id,
+            // userId: user._id,
             jobTitle: data.jobTitle,
             companyLogo: data.companyLogo,
             jobLocation: data.jobLocation,
@@ -34,6 +34,7 @@ export const postJobs = async (req, res) => {
             res.json({ message: "Job added successfully to the database" });
         })
     } catch (err) {
+        console.error(err);
         res.status(400).json(err);
     }
 }
