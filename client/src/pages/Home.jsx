@@ -1,9 +1,9 @@
 import React from 'react'
-import MainBar from '../components/MainBar'
+import MainBar from '../components/Jobs/MainBar'
 import { useEffect, useState } from 'react';
-import Jobs from '../components/Jobs';
-import Card from '../components/Card'
-import Sidebar from '../components/Sidebar';
+import Jobs from '../components/Jobs/Jobs';
+import Card from '../components/Jobs/Card'
+import Sidebar from '../components/Filters/Sidebar';
 import Queries_News from '../components/Queries_News';
 
 const Home = () => {

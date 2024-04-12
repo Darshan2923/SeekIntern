@@ -5,4 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { promisify } from 'util';
 import { pipeline } from 'stream';
 
+const upload = 10;
+export default upload;
+
 
