@@ -6,71 +6,20 @@ let schema = new mongoose.Schema(
             type: mongoose.Schema.Types.ObjectId,
             required: true,
         },
-        title: {
+        jobTitle: {
             type: String,
             required: true,
         },
-        maxApplicants: {
-            type: Number,
-            validate: [
-                {
-                    validator: Number.isInteger,
-                    msg: "maxApplicants should be an integer",
-                },
-                {
-                    validator: function (value) {
-                        return value > 0;
-                    },
-                    msg: "maxApplicants should greater than 0",
-                },
-            ],
+        companyLogo: {
+            type: String,
         },
-        maxPositions: {
-            type: Number,
-            validate: [
-                {
-                    validator: Number.isInteger,
-                    msg: "maxPostions should be an integer",
-                },
-                {
-                    validator: function (value) {
-                        return value > 0;
-                    },
-                    msg: "maxPositions should greater than 0",
-                },
-            ],
+        jobLocation: {
+            type: String,
+            required: true,
         },
-        activeApplications: {
-            type: Number,
-            default: 0,
-            validate: [
-                {
-                    validator: Number.isInteger,
-                    msg: "activeApplications should be an integer",
-                },
-                {
-                    validator: function (value) {
-                        return value >= 0;
-                    },
-                    msg: "activeApplications should greater than equal to 0",
-                },
-            ],
-        },
-        acceptedCandidates: {
-            type: Number,
-            default: 0,
-            validate: [
-                {
-                    validator: Number.isInteger,
-                    msg: "acceptedCandidates should be an integer",
-                },
-                {
-                    validator: function (value) {
-                        return value >= 0;
-                    },
-                    msg: "acceptedCandidates should greater than equal to 0",
-                },
-            ],
+        description: {
+            type: String,
+            required: true,
         },
         dateOfPosting: {
             type: Date,

@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import passport from './lib/passportConfig.js'
 import bodyParser from 'body-parser';
-// import apiRoutes from './routes/apiRoutes.js'
+import apiRoutes from './routes/apiRoutes.js'
 import authRoutes from './routes/authRoutes.js'
 // import uploadRoutes from './routes/uploadRoutes.js'
 
@@ -17,7 +17,7 @@ app.use(passport.initialize());
 app.use(cors());
 app.use(express.json());
 app.use("/auth", authRoutes);
-// app.use("/api", apiRoutes);
+app.use("/api", apiRoutes);
 // app.use("/upload", uploadRoutes)
 
 mongoose

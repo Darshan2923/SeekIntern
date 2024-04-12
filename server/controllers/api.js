@@ -1,12 +1,12 @@
-import express from 'express';
-import userModel from '../db/User';
-import applicantModel from '../db/JobApplicant';
-import appModel from '../db/Application';
-import recruiterModel from '../db/Recruiter';
-import jobs from '../db/Jobs';
+// import express from 'express';
+// import userModel from '../db/User';
+// import applicantModel from '../db/JobApplicant';
+// import appModel from '../db/Application';
+// import recruiterModel from '../db/Recruiter';
+import jobs from '../db/Jobs.js';
 
 // Add a new job
-export const postRoutes = async (req, res) => {
+export const postJobs = async (req, res) => {
     try {
         const user = req.user;
         if (user.type != "recruiter") {
@@ -17,14 +17,15 @@ export const postRoutes = async (req, res) => {
         }
         const data = req.body;
 
-        let job = new jobs({
+        const job = new jobs({
             userId: user._id,
-            title: data.title,
-            maxApplicants: data.maxApplicants,
-            maxPositions: data.maxPositions,
-            dateOfPosting: data.dateOfPosting,
+            jobTitle: data.jobTitle,
+            companyLogo: data.companyLogo,
+            jobLocation: data.jobLocation,
+            description: data.description,
+            dateOfPosting: data.dateOfPosting || new Date(), // Default to current date if not provided
             deadline: data.deadline,
-            skillsets: data.skillsets,
+            skillsets: data.skillsets || [], // Default to an empty array if not provided
             jobType: data.jobType,
             duration: data.duration,
             salary: data.salary,
