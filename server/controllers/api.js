@@ -131,6 +131,19 @@ export const getApply = async (req, res) => {
 
 }
 
+export const getOnejobInfo = async (req, res) => {
+    try {
+        const job = await jobs.findOne({ _id: req.params.id });
+        if (!job) {
+            return res.status(400).json({ message: "Job doesn't exist" });
+        }
+        res.json(job);
+    } catch (error) {
+        res.status(400).json(error);
+    }
+};
+
+
 
 
 
