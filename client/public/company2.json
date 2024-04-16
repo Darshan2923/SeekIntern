@@ -1,0 +1,672 @@
+[
+    {
+        "company": "Amazon",
+        "website": "https://www.amazon.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Morgan Stanley",
+        "website": "https://www.morganstanley.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Goldman Sachs",
+        "website": "https://www.goldmansachs.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Cactus Communication",
+        "website": "https://www.cactusglobal.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Alphagrep",
+        "website": "https://www.alphagrep.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "MSCI",
+        "website": "https://www.msci.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "IRage",
+        "website": "https://www.iragecapital.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Gupshup Technology",
+        "website": "https://www.gupshup.io/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Samsung Research",
+        "website": "https://www.samsung.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "JPMorgan",
+        "website": "https://www.jpmorganchase.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Enfusion",
+        "website": "https://www.enfusionsystems.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "ZS Associates",
+        "website": "https://www.zs.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Dolat Capital",
+        "website": "https://www.dolatcapital.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Sugar Box",
+        "website": "https://www.sugarbox.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Cimpress",
+        "website": "https://www.cimpress.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Accolite",
+        "website": "https://www.accolite.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Axxela",
+        "website": "https://www.axxela.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Force Point",
+        "website": "https://www.forcepoint.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "ISS Governance",
+        "website": "https://www.issgovernance.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "JioSaan",
+        "website": "https://www.jio.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Karza",
+        "website": "https://www.karza.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Think 360",
+        "website": "https://www.think360.ai/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Quantiphi",
+        "website": "https://www.quantiphi.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Infosys (Dream)",
+        "website": "https://www.infosys.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "RBL",
+        "website": "https://www.rblbank.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Falkorny",
+        "website": "https://www.falkorny.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Mossaic Wellness",
+        "website": "https://www.mossaicwellness.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Josh Tech.",
+        "website": "https://www.joshtech.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Seclore",
+        "website": "https://www.seclore.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Alchemy",
+        "website": "https://www.alchemy.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Tuscan Ventures",
+        "website": "https://www.tuscanventures.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Interactive Brokers",
+        "website": "https://www.interactivebrokers.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Carwale",
+        "website": "https://www.carwale.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Visible Alpha",
+        "website": "https://www.visiblealpha.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Oracle",
+        "website": "https://www.oracle.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Tresvista -GTD",
+        "website": "https://www.tresvista.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Delloitte -USI",
+        "website": "https://www2.deloitte.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "GEP",
+        "website": "https://www.gep.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Qure.Ai",
+        "website": "https://www.qure.ai/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Birla Soft",
+        "website": "https://www.birlasoft.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Net Cracker",
+        "website": "https://www.netcracker.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "ISchool Connect",
+        "website": "https://www.ischoolconnect.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "HUL",
+        "website": "https://www.hul.co.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Musigma",
+        "website": "https://www.mu-sigma.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Capgemini (Dream)",
+        "website": "https://www.capgemini.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Growisto",
+        "website": "https://www.growisto.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "TCS Digital",
+        "website": "https://www.tcs.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Edelweiss",
+        "website": "https://www.edelweissfin.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Maersk Tankers",
+        "website": "https://www.maersktankers.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Tresvista",
+        "website": "https://www.tresvista.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "COGO Port",
+        "website": "https://www.cogoport.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "DANA",
+        "website": "https://www.dana.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "NSE Tech",
+        "website": "https://www.nse.co.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Samsung Electronics",
+        "website": "https://www.samsung.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Swan Solutions",
+        "website": "https://www.swansol.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "L&T",
+        "website": "https://www.larsentoubro.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "RISE",
+        "website": "https://www.riseinfinite.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "HDFC",
+        "website": "https://www.hdfc.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "LTI - Level 2",
+        "website": "https://www.lntinfotech.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Tata Communications",
+        "website": "https://www.tatacommunications.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Earnst and Young",
+        "website": "https://www.ey.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Amdocs",
+        "website": "https://www.amdocs.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Accenture-AASE",
+        "website": "https://www.accenture.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Technip Energies",
+        "website": "https://www.technipenergies.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Tata Power",
+        "website": "https://www.tatapower.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Piramal",
+        "website": "https://www.piramal.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Bill Desk",
+        "website": "https://www.billdesk.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Marwadi Shares",
+        "website": "https://www.marwadionline.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "NSE-IT",
+        "website": "https://www.nse.co.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Zeus Learning",
+        "website": "https://www.zeuslearning.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Infor",
+        "website": "https://www.infor.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "L&T Finanical Services",
+        "website": "https://www.ltfs.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Arcon",
+        "website": "https://www.arconnet.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Pwc",
+        "website": "https://www.pwc.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Vikhabh Securities",
+        "website": "https://www.vikabh.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Decimal Point Analytics",
+        "website": "https://www.decimalpointanalytics.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "NATIVE",
+        "website": "https://www.native.ai/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Heurtey Petrochem Solution",
+        "website": "https://www.sbhpp.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Myscoot Tech.",
+        "website": "https://www.myscoot.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Niveus Solutions",
+        "website": "https://www.niveus.co/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Duck Creek",
+        "website": "https://www.duckcreek.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Citius Tech.",
+        "website": "https://www.citiustech.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "ACIES",
+        "website": "https://www.acies.consulting/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Godrej and Boyce Ltd.",
+        "website": "https://www.godrej.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Blue Star",
+        "website": "https://www.bluestarindia.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Bosch",
+        "website": "https://www.bosch.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Federal Bank",
+        "website": "https://www.federalbank.co.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "JSW Ltd;",
+        "website": "https://www.jsw.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Technology Inno. Hub",
+        "website": "https://www.tihl.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Nerolac Paints",
+        "website": "https://www.nerolac.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Anglo Estern Ship Management",
+        "website": "https://www.angloeastern.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "LTI-Level 1",
+        "website": "https://www.lntinfotech.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Finovate",
+        "website": "https://www.finovate.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Ingenero technologies",
+        "website": "https://www.ingenero.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "IBM",
+        "website": "https://www.ibm.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "ICB Technimont",
+        "website": "https://www.icbtechnimont.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Keyence",
+        "website": "https://www.keyence.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Media.net",
+        "website": "https://www.media.net/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Byju",
+        "website": "https://www.byjus.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Tata Technologies",
+        "website": "https://www.tatatechnologies.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Transganization",
+        "website": "https://www.transganization.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Brillio",
+        "website": "https://www.brillio.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Logistics now",
+        "website": "https://www.logisticsnow.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Selec Controls",
+        "website": "https://www.selec.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "CodeaArray",
+        "website": "https://www.codeaarray.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Tata Consultancy Engineering",
+        "website": "https://www.tce.co.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "My Captain",
+        "website": "https://www.mycaptain.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "ACG",
+        "website": "https://www.acg-world.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Raychem RPG",
+        "website": "https://www.rpgcables.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Square Yards",
+        "website": "https://www.squareyards.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Sanmargroup",
+        "website": "https://www.sanmargroup.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Deloitte-India",
+        "website": "https://www2.deloitte.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "HCL",
+        "website": "https://www.hcltech.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Accenture",
+        "website": "https://www.accenture.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Cognizant",
+        "website": "https://www.cognizant.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Capgemini",
+        "website": "https://www.capgemini.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Worley",
+        "website": "https://www.worley.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Jio Platform",
+        "website": "https://www.jio.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Hestabit",
+        "website": "https://www.hestabit.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Pransa",
+        "website": "https://www.pransa.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "TCS Ninja",
+        "website": "https://www.tcs.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Infosys",
+        "website": "https://www.infosys.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Inquizzity",
+        "website": "https://www.inquizzity.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Aromatan",
+        "website": "https://www.aromatan.in/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Voltas",
+        "website": "https://www.voltas.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Olgie",
+        "website": "https://www.olgie.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Mirraw",
+        "website": "https://www.mirraw.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Tata Elexi",
+        "website": "https://www.tataelxsi.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Reliance Industries Ltd.",
+        "website": "https://www.ril.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "IIFL",
+        "website": "https://www.iifl.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Zell",
+        "website": "https://www.zell.org/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Armstrong Automation",
+        "website": "https://www.armstrongautomation.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Wipro",
+        "website": "https://www.wipro.com/",
+        "year": "2021-22"
+    },
+    {
+        "company": "Pyramid E&C",
+        "website": "https://www.pyramidenc.com/",
+        "year": "2021-22"
+    }
+]

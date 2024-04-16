@@ -1,0 +1,392 @@
+[
+    {
+        "company": "Morgan Stanley",
+        "website": "https://www.morganstanley.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Browser Stack",
+        "website": "https://www.browserstack.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "JPMorgan",
+        "website": "https://www.jpmorgan.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Alphagrep",
+        "website": "https://www.alphagrep.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Cimpress",
+        "website": "https://www.cimpress.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Dolat Capital",
+        "website": "https://www.dolatcapital.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Bhyve",
+        "website": "https://www.bhyve.io/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Accolite",
+        "website": "https://www.accolite.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "ZS Associates",
+        "website": "https://www.zs.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "JioSaavn",
+        "website": "https://www.jiosaavn.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "JPMC Finance",
+        "website": "https://www.jpmorganchase.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "ISS Governance",
+        "website": "https://www.issgovernance.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "LTI-Level4",
+        "website": "https://www.lntinfotech.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Quantiphi",
+        "website": "https://www.quantiphi.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Interactive brokers",
+        "website": "https://www.interactivebrokers.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "eMeasurematics",
+        "website": "https://www.emeasurematics.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "RBL Bank",
+        "website": "https://www.rblbank.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Dream11",
+        "website": "https://www.dream11.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Bottomline",
+        "website": "https://www.bottomline.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "GEP",
+        "website": "https://www.gep.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "LTI-Level 3",
+        "website": "https://www.lntinfotech.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Infosys",
+        "website": "https://www.infosys.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Think 360",
+        "website": "https://www.think360.in/",
+        "year": "2020-21"
+    },
+    {
+        "company": "HUL",
+        "website": "https://www.hul.co.in/",
+        "year": "2020-21"
+    },
+    {
+        "company": "TCS Digital",
+        "website": "https://www.tcs.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Edelweiss",
+        "website": "https://www.edelweissfin.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "BYJU",
+        "website": "https://www.byjus.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "L&T",
+        "website": "https://www.larsentoubro.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Data Grid",
+        "website": "https://www.datagrid.co.in/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Media.net",
+        "website": "https://www.media.net/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Seclore",
+        "website": "https://www.seclore.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "LTI-level 2",
+        "website": "https://www.lntinfotech.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Tata Power",
+        "website": "https://www.tatapower.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Tresvista",
+        "website": "https://www.tresvista.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Visible Alpha",
+        "website": "https://www.visiblealpha.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Billdesk",
+        "website": "https://www.billdesk.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Connectwise",
+        "website": "https://www.connectwise.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "MAQ Software",
+        "website": "https://www.maqsoftware.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "We Gyan Venture",
+        "website": "https://www.wegyanventure.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Willis Tower",
+        "website": "https://www.willistower.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Tata Electronics",
+        "website": "https://www.tata.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "NSE",
+        "website": "https://www.nseindia.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Oracle Financial Services",
+        "website": "https://www.oracle.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Flexiloans",
+        "website": "https://www.flexiloans.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Hour Glass Research",
+        "website": "https://www.hourglassresearch.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Free Space",
+        "website": "https://www.freespace.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Amdocs",
+        "website": "https://www.amdocs.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "LTI-level 1",
+        "website": "https://www.lntinfotech.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Congo Al",
+        "website": "https://www.congoal.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Infosys dream",
+        "website": "https://www.infosys.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Hansa Cequity",
+        "website": "https://www.hansacequity.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Quantum",
+        "website": "https://www.quantum.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Decimal Point Analytics",
+        "website": "https://www.decimalpointanalytics.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Earnst and Young",
+        "website": "https://www.ey.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Reliance Jio",
+        "website": "https://www.jio.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Godrej",
+        "website": "https://www.godrej.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Deloittee",
+        "website": "https://www2.deloitte.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Sanmar",
+        "website": "https://www.sanmargroup.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Piramal",
+        "website": "https://www.piramal.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Cognizant",
+        "website": "https://www.cognizant.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Burns Mcdonnel",
+        "website": "https://www.burnsmcd.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "AGR",
+        "website": "https://www.agr.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Square Yards",
+        "website": "https://www.squareyards.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Pransa",
+        "website": "https://www.pransa.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Fourth Signal",
+        "website": "https://www.fourthsignal.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "TCS Ninja",
+        "website": "https://www.tcs.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "HCL",
+        "website": "https://www.hcltech.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Accenture",
+        "website": "https://www.accenture.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Speridian",
+        "website": "https://www.speridian.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Capgemini",
+        "website": "https://www.capgemini.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Blink Digital",
+        "website": "https://www.blinkdigital.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Perch Technologies",
+        "website": "https://www.perchtech.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "My Captain",
+        "website": "https://www.mycaptain.in/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Fleetx",
+        "website": "https://www.fleetx.io/",
+        "year": "2020-21"
+    },
+    {
+        "company": "QSpiders",
+        "website": "https://www.qspiders.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Sunjewels",
+        "website": "https://www.sunjewels.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Logiqids",
+        "website": "https://www.logiqids.com/",
+        "year": "2020-21"
+    },
+    {
+        "company": "Vistar",
+        "website": "https://www.vistar.com/",
+        "year": "2020-21"
+    }
+]

@@ -26,10 +26,11 @@ const Navbar = () => {
 
     const applicant_navlinks = [
         { path: '/', title: 'Home' },
-        { path: '/myjob', title: 'Jobs' },
-        { path: '/salaries', title: 'Salary Estimates' },
-        { path: '/post_job', title: 'Post A Job' },
+        { path: '/myjob', title: 'Applied Jobs' },
+        { path: '/company_profiles', title: 'Company Profiles' },
+        { path: '/feedback', title: 'Feedback' },
     ];
+
 
     const recruiter_navlinks = [
         { path: '/', title: 'Home' },
@@ -38,6 +39,11 @@ const Navbar = () => {
         { path: '/employees', title: 'Employees' },
     ]
 
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleDropdown = () => {
+        setIsOpen(!isOpen);
+    };
     console.log("User type: ", userType());
 
     return (
@@ -83,7 +89,26 @@ const Navbar = () => {
                     </div>
                     <div className="login md:flex gap-8 hidden text-[16px]">
                         <NavLink to='/saved'><LuScroll /></NavLink>
-                        <NavLink to='/login'><FaUser /></NavLink>
+                        <div className="relative">
+                            <div className="user-icon cursor-pointer" onClick={toggleDropdown}>
+                                <FaUser />
+                            </div>
+                            {isOpen && (
+                                <div className="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg cursor-pointer">
+                                    <ul>
+                                        <li>
+                                            <NavLink to="/signup" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Register</NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink to="/login" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Login</NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink to="/logout" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Logout</NavLink>
+                                        </li>
+                                    </ul>
+                                </div>
+                            )}
+                        </div>
                     </div>
 
                     {/* mobile view */}

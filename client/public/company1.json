@@ -1,0 +1,467 @@
+[
+    {
+        "company": "Adobe",
+        "website": "https://www.adobe.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Alpha Grep",
+        "website": "https://www.alphagrep.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Dolat Capital",
+        "website": "https://www.dolatcapital.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "JP Morgan Chase",
+        "website": "https://www.jpmorganchase.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "SAS",
+        "website": "https://www.sas.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Visible Alpha",
+        "website": "https://www.visiblealpha.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Force Point",
+        "website": "https://www.forcepoint.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Bank of America",
+        "website": "https://www.bankofamerica.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Axxela",
+        "website": "https://www.axxela.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Cogoport",
+        "website": "https://www.cogoport.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "ZS Associates",
+        "website": "https://www.zs.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Enfusion",
+        "website": "https://www.enfusionsystems.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "ISS Governance",
+        "website": "https://www.issgovernance.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "IIFL",
+        "website": "https://www.indiainfoline.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Cimpress",
+        "website": "https://www.cimpress.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "MIKO",
+        "website": "https://www.miko.ai/",
+        "year": "2022-23"
+    },
+    {
+        "company": "nVent",
+        "website": "https://www.nvent.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Belden",
+        "website": "https://www.belden.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "IDFY",
+        "website": "https://www.idfy.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Fractal Analytics",
+        "website": "https://www.fractalanalytics.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Interactive Brokers",
+        "website": "https://www.interactivebrokers.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "FYND",
+        "website": "https://www.gofynd.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Share Khan",
+        "website": "https://www.sharekhan.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Falkorny",
+        "website": "https://www.falkorny.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Tejas Networks",
+        "website": "https://www.tejasnetworks.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "EMeasurematics",
+        "website": "https://www.emeasurematics.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Think360",
+        "website": "https://www.think360.in/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Asprispirits",
+        "website": "https://www.asprispirits.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Maxwell Energy",
+        "website": "https://www.maxwellenergy.in/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Axis Bank",
+        "website": "https://www.axisbank.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Oracle",
+        "website": "https://www.oracle.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Indus Valley Partners",
+        "website": "https://www.indusvalleypartners.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Billdesk",
+        "website": "https://www.billdesk.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Quantiphi",
+        "website": "https://www.quantiphi.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Vikabh Securities",
+        "website": "https://www.vikabh.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Edelweiss",
+        "website": "https://www.edelweissfin.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "GEP Worldwide",
+        "website": "https://www.gep.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "ICICI Lombard",
+        "website": "https://www.icicilombard.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Neo-Group",
+        "website": "https://www.neogroup.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "IIFL Livelong",
+        "website": "https://www.indiainfoline.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Tresvista",
+        "website": "https://www.tresvista.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Deloitte India / USA",
+        "website": "https://www2.deloitte.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "TCS Digital",
+        "website": "https://www.tcs.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Avalon Global Research",
+        "website": "https://www.avalonglobalresearch.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Tata Power",
+        "website": "https://www.tatapower.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "JARO Education",
+        "website": "https://www.jaroeducation.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "L&T Financial Services",
+        "website": "https://www.ltfs.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Cimpress (Quality role)",
+        "website": "https://www.cimpress.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "JSW",
+        "website": "https://www.jsw.in/",
+        "year": "2022-23"
+    },
+    {
+        "company": "HDFC",
+        "website": "https://www.hdfc.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Amdocs",
+        "website": "https://www.amdocs.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Technip Energy",
+        "website": "https://www.technipfmc.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "E&Y",
+        "website": "https://www.ey.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Infosys",
+        "website": "https://www.infosys.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "KPMG",
+        "website": "https://home.kpmg/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Ganit",
+        "website": "https://www.ganitinc.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "L&T",
+        "website": "https://www.larsentoubro.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Alpha Alternatives",
+        "website": "https://www.alpha-alternatives.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Praan",
+        "website": "https://www.praan.in/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Decimal Point",
+        "website": "https://www.decimalpointanalytics.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Cimpress (Quality)",
+        "website": "https://www.cimpress.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Zeus Learning",
+        "website": "https://www.zeuslearning.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Nerolac Paints",
+        "website": "https://www.nerolac.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Selec Controls",
+        "website": "https://www.selec-controls.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Logisticsnow",
+        "website": "https://www.logisticsnow.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "The Math Company",
+        "website": "https://www.themathcompany.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Mahindra Ltd",
+        "website": "https://www.mahindra.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Godrej and Boyce Ltd.",
+        "website": "https://www.godrej.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "LTI",
+        "website": "https://www.lntinfotech.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Gandhi Automation",
+        "website": "https://www.gandhiautomation.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Siemens",
+        "website": "https://www.siemens.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "ICB Technimont",
+        "website": "https://www.technimont.in/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Pearch Technology",
+        "website": "https://www.pearchtechnology.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Zunpulse",
+        "website": "https://www.zunpulse.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Bluestar",
+        "website": "https://www.bluestarindia.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Tata Advanced Systems",
+        "website": "https://www.tataadvancedsystems.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Native",
+        "website": "https://www.native.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Worley",
+        "website": "https://www.worley.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Anand Rathi Group",
+        "website": "https://www.rathi.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Nilkamal Ltd.",
+        "website": "https://www.nilkamal.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Burns and Mcdonnel",
+        "website": "https://www.burnsmcd.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Imaginarium",
+        "website": "https://www.imaginarium.io/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Capgemini",
+        "website": "https://www.capgemini.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "ITC",
+        "website": "https://www.itcportal.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Techint",
+        "website": "https://www.techint.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Tata Consulting Engineers",
+        "website": "https://www.tce.co.in/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Cognizant",
+        "website": "https://www.cognizant.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Avinro",
+        "website": "https://www.avinro.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "L&T Tech. Services",
+        "website": "https://www.ltts.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "TCS Ninja",
+        "website": "https://www.tcs.com/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Avitron Aerospace",
+        "website": "https://www.avitron.in/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Efficient Innovations",
+        "website": "https://www.efficientinnovations.in/",
+        "year": "2022-23"
+    },
+    {
+        "company": "Medtronic",
+        "website": "https://www.medtronic.com/",
+        "year": "2022-23"
+    }
+]
