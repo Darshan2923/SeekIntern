@@ -4,9 +4,12 @@ import ExcelJS from 'exceljs';
 import nodemailer from 'nodemailer';
 import mongoose from 'mongoose';
 import jobs from '../db/Jobs.js';
+import dotenv from 'dotenv';
+dotenv.config();
+
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://darshankumar:pass123@cruddemo.h9zf4hp.mongodb.net/?retryWrites=true&w=majority&appName=crudDemo', {
+mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -83,7 +86,7 @@ async function generateExcelAndSendEmail() {
 }
 
 // Schedule the job to run only once on April 12, 2024, at 10:30 PM
-cron.schedule('37 22 12 4 2024', generateExcelAndSendEmail, {
+cron.schedule('15 17 * * *', generateExcelAndSendEmail, {
   timezone: 'Asia/Kolkata' // India's timezone (IST)
 });
 

@@ -6,6 +6,8 @@ import bodyParser from 'body-parser';
 import apiRoutes from './routes/apiRoutes.js'
 import authRoutes from './routes/authRoutes.js'
 // import uploadRoutes from './routes/uploadRoutes.js'
+import dotenv from 'dotenv';
+dotenv.config();
 
 
 const app = express();
@@ -21,7 +23,7 @@ app.use("/api", apiRoutes);
 // app.use("/upload", uploadRoutes)
 
 mongoose
-    .connect("mongodb+srv://darshankumar:pass123@cruddemo.h9zf4hp.mongodb.net/?retryWrites=true&w=majority&appName=crudDemo")
+    .connect(process.env.MONGO_URI)
     .then((res) => console.log("Connected to DB"))
     .catch((err) => console.log(err));
 app.listen(5000, () => console.log("server running at port 5000"));
