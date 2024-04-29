@@ -25,6 +25,12 @@ let schema = new mongoose.Schema(
             type: Date,
             default: Date.now,
         },
+        about: {
+            type: String,
+        },
+        requirements: {
+            type: String,
+        },
         deadline: {
             type: Date,
             validate: [

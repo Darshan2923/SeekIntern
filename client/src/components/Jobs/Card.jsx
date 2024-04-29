@@ -3,10 +3,10 @@ import { FiCalendar, FiClock, FiDollarSign, FiMapPin } from 'react-icons/fi';
 import { NavLink } from 'react-router-dom'
 
 const Card = ({ data }) => {
-    const { companyName, jobTitle, companyLogo, minPrice, maxPrice, salaryType, jobLocation, postingDate, experienceLevel, employmentType, description } = data;
+    const { _id, companyName, jobTitle, companyLogo, minPrice, maxPrice, salaryType, jobLocation, postingDate, experienceLevel, employmentType, description } = data;
     return (
         <section className='card mb-4'>
-            <NavLink to={"/"} className='flex gap-4 flex-col sm:flex-row items-start border border-gray-300 p-4'>
+            <NavLink to={`/${_id}`} className='flex gap-4 flex-col sm:flex-row items-start border border-gray-300 p-4'>
                 <img className="w-14" src={companyLogo} alt="" />
                 <div className='card-details'>
                     <h4 className='text-primary mb-1'>{companyName}</h4>

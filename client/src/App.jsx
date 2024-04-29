@@ -8,6 +8,7 @@ import LoginForm from './components/Auth/Login'
 import SignupForm from './components/Auth/Signup'
 import Logout from './components/Auth/Logout'
 import CreateJobs from './components/Jobs/CreateJobs'
+import JobDetails from './pages/JobDetails'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/signup' element={<SignupForm />} />
         <Route path='/logout' element={<Logout />} />
         <Route path='/add_jobs' element={<CreateJobs />} />
+        <Route path="/jobs/:id" component={<JobDetails />} />
       </Routes>
       <Footer />
     </div>

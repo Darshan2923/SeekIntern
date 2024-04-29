@@ -4,6 +4,7 @@
 import appModel from '../db/Application.js';
 // import recruiterModel from '../db/Recruiter';
 import jobs from '../db/Jobs.js';
+import recruiterModel from '../db/Recruiter.js';
 
 // Add a new job
 export const postJobs = async (req, res) => {
@@ -29,6 +30,8 @@ export const postJobs = async (req, res) => {
             jobType: data.jobType,
             duration: data.duration,
             salary: data.salary,
+            about: data.about,
+            requirements: data.requirements
         });
         await job.save().then(() => {
             res.json({ message: "Job added successfully to the database" });
@@ -142,6 +145,28 @@ export const getOnejobInfo = async (req, res) => {
         res.status(400).json(error);
     }
 };
+
+// get user's personal details
+export const profileInfo = async (req, res) => {
+    try {
+        const user = req.user;
+        if (user.type === "recruiter") {
+            const recUser = await recruiterModel.findOne({ userId: user._id })
+            if (!recUser) {
+                return res.status(400).json({ message: "User doesn't exist" });
+            }
+            res.json(recUser);
+        } else {
+            const appUser = await appModel.findOne({ userId: user._id })
+            if (!appUser) {
+                return res.status(400).json({ message: "User doesn't exist" });
+            }
+            res.json(appUser);
+        }
+    } catch (error) {
+        res.status(400).json(error)
+    }
+}
 
 
 
