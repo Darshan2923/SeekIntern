@@ -26,7 +26,7 @@ const Navbar = () => {
 
     const applicant_navlinks = [
         { path: '/', title: 'Home' },
-        { path: '/myjob', title: 'Applied Jobs' },
+        { path: '/myapplications', title: 'Applied Jobs' },
         { path: '/company_profiles', title: 'Company Profiles' },
         { path: '/feedback', title: 'Feedback' },
     ];

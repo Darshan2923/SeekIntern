@@ -1,10 +1,9 @@
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 
 let schema = new mongoose.Schema(
     {
         userId: {
             type: mongoose.Schema.Types.ObjectId,
-            // required: true,
         },
         jobTitle: {
             type: String,
@@ -72,7 +71,12 @@ let schema = new mongoose.Schema(
                 },
             ],
         },
-    }, { collation: { locale: "en" } });
+    },
+    { collation: { locale: "en" } }
+);
+
+// Add TTL index on the deadline field, documents will expire after the deadline has passed
+schema.index({ deadline: 1 }, { expireAfterSeconds: 0 });
 
 const jobs = mongoose.model("jobs", schema);
 

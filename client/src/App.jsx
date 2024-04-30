@@ -9,6 +9,7 @@ import SignupForm from './components/Auth/Signup'
 import Logout from './components/Auth/Logout'
 import CreateJobs from './components/Jobs/CreateJobs'
 import JobDetails from './pages/JobDetails'
+import MyJobs from './components/Applications/MyJobs'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/logout' element={<Logout />} />
         <Route path='/add_jobs' element={<CreateJobs />} />
         <Route path="/jobs/:id" component={<JobDetails />} />
+        <Route path='/myapplications' component={<MyJobs/>}/>
       </Routes>
       <Footer />
     </div>

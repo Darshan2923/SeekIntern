@@ -168,6 +168,78 @@ export const profileInfo = async (req, res) => {
     }
 }
 
+// recruiter/applicant gets all his applications [pagination]
+export const myApps = async (req, res) => {
+    try {
+        const user = req.user;
+        const applications = await appModel.aggregate([
+            {
+                $lookup: {
+                    from: "jobapplicantinfos",
+                    localField: "userId",
+                    foreignField: "userId",
+                    as: "jobApplicant",
+                },
+            },
+            { $unwind: "$jobApplicant" },
+            {
+                $lookup: {
+                    from: "jobs",
+                    localField: "jobId",
+                    foreignField: "_id",
+                    as: "job",
+                },
+            },
+            { $unwind: "$job" },
+            {
+                $lookup: {
+                    from: "recruiterinfos",
+                    localField: "recruiterId",
+                    foreignField: "userId",
+                    as: "recruiter",
+                },
+            },
+            { $unwind: "$recruiter" },
+            {
+                $match: {
+                    [user.type === "recruiter" ? "recruiterId" : "userId"]: user._id,
+                },
+            },
+            {
+                $sort: {
+                    dateOfApplication: -1,
+                },
+            },
+        ]);
+
+        res.json(applications);
+    } catch (err) {
+        res.status(400).json(err);
+    }
+};
+
+// delete a job post after the deadline
+export const deleteJobs = async (req, res) => {
+    try {
+        const user = req.user;
+        if (user.type !== "recruiter") {
+            return res.status(401).json({ message: "You don't have permissions to delete the job" });
+        }
+        const jobDel = await jobs.findOneAndDelete({
+            _id: req.params.id,
+            userId: user.id,
+        });
+        if (!jobDel) {
+            return res.status(401).json({ message: "You don't have a job to delete" });
+        }
+        res.status(200).json("Job deleted successfully!!");
+    } catch (err) {
+        res.status(404).json(err);
+    }
+}
+
+
+
 
 
 
